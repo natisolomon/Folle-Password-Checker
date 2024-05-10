@@ -1,0 +1,74 @@
+<!-- result.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Password Strength Result</title>
+
+    <style>
+         /*.hero {
+            background-image: url("{{ url_for('static', filename='hacking.jpg') }}");
+        } */
+    </style>
+
+</head>
+<body>
+
+    <div class="box">
+        <div class="folle-passwords">Folle Passwords</div>
+        <div class="info">natasola26@gmail.com</div>
+    </div>
+
+    <div class="hero">
+        <h1>Password Strength Result</h1>
+        <p>Your password is: {{ strength }}</p>
+    </div>
+
+    <div class="containers">
+
+        <div class="texts">
+          <h1>About Password Checker</h1>
+        <p>
+            Password Checker is a simple web application that helps you evaluate the strength of your passwords. 
+            It analyzes your password based on various criteria such as length, complexity, and character types 
+            to provide you with an indication of its strength.
+        </p>
+        <p>
+            This project is developed using HTML, CSS, and possibly JavaScript for any interactive features. 
+            It aims to provide users with a quick and easy way to assess the security of their passwords 
+            and make informed decisions to improve their online security.
+        </p>
+        </div>
+        <div class="images">
+          <img src="../static/pass3.jpg" alt="Image 1">
+        </div>
+      </div>
+
+      <div class="containers">
+        <div class="texts">
+          <h1>About Password Checker</h1>
+        <p>
+            Password Checker is a simple web application that helps you evaluate the strength of your passwords. 
+            It analyzes your password based on various criteria such as length, complexity, and character types 
+            to provide you with an indication of its strength.
+        </p>
+        <p>
+            This project is developed using HTML, CSS, and possibly JavaScript for any interactive features. 
+            It aims to provide users with a quick and easy way to assess the security of their passwords 
+            and make informed decisions to improve their online security.
+        </p>
+        </div>
+        <div class="images">
+          <img src="../static/pass3.jpg" alt="Image 1">
+        </div>
+      </div>
+
+    <footer class="footer">
+        
+        <div class="footer-content">
+            <p>&copy; 2024 Password Strength Checker. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

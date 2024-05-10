@@ -1,0 +1,117 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Password Strength Checker</title>
+
+    <style>
+        /*.hero {
+            background-image: url("{{ url_for('static', filename='hacking.jpg') }}");
+        }*/
+    </style>
+
+</head>
+<body>
+    
+    <div class="box">
+        <div class="folle-passwords">Folle Passwords</div>
+        <div class="info">natasola26@gmail.com</div>
+    </div>
+    
+    
+
+    <section class="hero">
+        <h1>Password Strength Checker</h1>
+
+        <form action="/" method="post">
+        
+                <label for="password">Enter your password:</label><br><br>
+                <input type="password" id="password" name="password"><br><br>
+            
+            <button type="submit" class="btn">Check Strength</button>
+        </form>
+
+    </section>
+
+    <div class="containers">
+
+        <div class="texts">
+          <h2>About Password Checker</h2>
+        <p>
+            Password Checker is a simple web application that helps you evaluate the strength of your passwords. 
+            It analyzes your password based on various criteria such as length, complexity, and character types 
+            to provide you with an indication of its strength.
+        </p>
+        <p>
+            This project is developed using HTML, CSS, and possibly JavaScript for any interactive features. 
+            It aims to provide users with a quick and easy way to assess the security of their passwords 
+            and make informed decisions to improve their online security.
+        </p>
+        </div>
+        <div class="images">
+          <img src="../static/pass3.jpg" alt="Image 1">
+        </div>
+      </div>
+
+      <div class="containering">
+        <div class="image">
+          <img src="../static/pass1.jpg" alt="Image 1">
+        </div>
+        <div class="text">
+          <h2>Why is a Password Strength Checker</h2>
+
+          <p>A weak password can be easily hacked, leaving you vulnerable to <br>
+            identity theft, fraud, and other cybercrimes. That's why it's essential <br>
+            to understand the importance of password strength and how to create a secure <br>
+            password that can't be cracked.</p>
+        </div>
+      </div>
+
+      <div class="containers">
+        <div class="texts">
+          <h2>Why use a good password?</h2>
+        <p>
+          Strong passwords are of the utmost importance. They protect your <br>
+          electronic accounts and devices from unauthorized access, keeping your <br>
+          sensitive personal information safe. The more complex the password, the <br>
+          more protected your information will be from cyber threats and hackers.
+        </p>
+        <p>
+            This project is developed using HTML, CSS, and possibly JavaScript for any interactive features. 
+            It aims to provide users with a quick and easy way to assess the security of their passwords 
+            and make informed decisions to improve their online security.
+        </p>
+        </div>
+        <div class="images">
+          <img src="../static/pass4.jpg" alt="Image 1">
+        </div>
+      </div>
+
+      <div class="containering">
+        <div class="image">
+          <img src="../static/pass2.jpg" alt="Image 1">
+        </div>
+        <div class="text">
+          <h2>Common mistakes</h2>
+
+          <p>Using Weak Passwords</p>
+          <p>Reusing Passwords</p>
+          <p>Writing Down Passwords:</p>
+          <p>Sharing Passwords: </p>
+          <p>Believing Longer Passwords are Always Better: </p>
+          <p>Relying Solely on Password Managers: </p>
+        </div>
+      </div>
+
+
+    <footer class="footer">
+        
+        <div class="footer-content">
+            <p>&copy; 2024 Password Strength Checker. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
